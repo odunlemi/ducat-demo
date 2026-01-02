@@ -1,0 +1,28 @@
+{
+  "name": "lending-protocol",
+  "version": "1.0.0",
+  "description": "DeFi-inspired lending protocol for Nigerian TradFi",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test tests/**/*.test.js",
+    "test:watch": "node --test --watch tests/**/*.test.js",
+    "test:coverage": "node --test --experimental-test-coverage tests/**/*.test.js"
+  },
+  "keywords": [
+    "lending",
+    "defi",
+    "nigeria",
+    "fintech",
+    "collateral"
+  ],
+  "author": "Abiodun Longe",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "dependency-cruiser": "^17.3.5"
+  }
+}
